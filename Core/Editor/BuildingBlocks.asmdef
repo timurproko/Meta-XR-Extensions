@@ -1,0 +1,22 @@
+{
+    "name": "BuildingBlocks.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Meta.XR.BuildingBlocks.Editor",
+        "Meta.XR.BuildingBlocks",
+        "Meta.XR.Editor.Tags",
+        "Meta.XR.Editor.Id"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
+

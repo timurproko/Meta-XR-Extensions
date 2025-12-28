@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e16a994a9a3bc794690a9064f8efd197, type: 3}
+  m_Name: UIToolkitBuildingBlock
+  m_EditorClassIdentifier: BuildingBlocks.Editor::BuildingBlocks.Editor.CustomBlockData
+  id: d4d723b9-ba62-4941-b272-96c9eb8ef1c0
+  version: 1
+  blockName: UIToolkit Panel
+  description: Allows integration of UI Toolkit (UITK) panels with Meta XR and provides
+    a foundation for building immersive UI based on UI Toolkit canwas  in World space.
+  tags:
+    array:
+    - name: Interaction
+    - name: Experimental
+  thumbnail: {fileID: 2800000, guid: 0160480bc5324f4438c69bc391dbd84a, type: 3}
+  remoteThumbnailContentId: 0
+  prefab: {fileID: 3073562829216625832, guid: 78d2dd6c1cb72404791b8de5666ccaf9, type: 3}
+  selectedGuidedSetupIndex: 0
+  externalBlockDependencies: []
+  dependencies: []
+  guidedSetupName: 
+  packageDependencies: []
+  isSingleton: 0
+  usageInstructions: 'Note: This block provides a basic UI Toolkit panel setup for
+    Meta XR applications. The recommended way to build UI in Unity is to use UI Toolkit,
+    which offers modern, flexible UI authoring with USS styling. When integrating
+    UI panels, ensure proper world-space canvas positioning and consider performance
+    implications of rendering UI elements in 3D space. For best results, configure
+    panel dimensions and layering to work seamlessly with your Meta XR interaction
+    system.'
+  featureDocumentationName: 
+  featureDocumentationUrl: 

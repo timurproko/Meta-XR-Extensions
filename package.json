@@ -1,0 +1,18 @@
+{
+    "name": "com.meta.xr.extensions",
+    "displayName": "Meta XR Extensions",
+    "description": "Provide extensions for Meta XR SDK",
+    "version": "1.0.0",
+    "unity": "6000.2",
+    "author": {
+        "name": "Timur Prokopiev",
+        "email": "timur.proko@gmail.com"
+    },
+    "samples": [
+        {
+        "displayName": "UIToolkit",
+        "description": "Basic example for UIToolkit demo",
+        "path": "Samples~/Scenes"
+        }
+    ]
+}
