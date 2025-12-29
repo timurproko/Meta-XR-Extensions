@@ -1,4 +1,4 @@
-<img width="1000" height="" alt="image" src="https://github.com/user-attachments/assets/e1379eb2-de8f-481c-9c31-552e724c54af" />
+<img width="800" height="" alt="image" src="https://github.com/user-attachments/assets/e1379eb2-de8f-481c-9c31-552e724c54af" />
 
 # Meta XR Extensions
 
