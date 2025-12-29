@@ -1,5 +1,5 @@
 {
-  "name": "com.meta.xr.extensions",
+  "name": "com.timurproko.meta.extensions",
   "displayName": "Meta XR Extensions",
   "description": "Provide extensions for Meta XR SDK",
   "version": "1.0.0",
