@@ -42,13 +42,13 @@ namespace BuildingBlocks.Editor
             featureDocumentationUrlProperty = serializedObject.FindProperty("featureDocumentationUrl");
             
             var blockData = target as CustomBlockData;
-            if (blockData != null && blockData.Tags != null)
+            if (blockData && blockData.Tags != null)
             {
                 ValidateAndCleanTags(blockData);
                 
                 EditorApplication.delayCall += () =>
                 {
-                    if (blockData != null)
+                    if (blockData)
                     {
                         ValidateAndCleanTags(blockData);
                         Repaint();
@@ -84,7 +84,7 @@ namespace BuildingBlocks.Editor
             {
                 serializedObject.ApplyModifiedProperties();
                 
-                if (blockData != null)
+                if (blockData)
                 {
                     ValidateAndCleanTags(blockData);
                 }
@@ -129,11 +129,11 @@ namespace BuildingBlocks.Editor
 
             EditorGUILayout.Space(10);
 
-            if (blockData != null)
+            if (blockData)
             {
                 EditorGUILayout.LabelField("Status", EditorStyles.boldLabel);
-                var blocksInScene = UnityEngine.Object.FindObjectsByType<Meta.XR.BuildingBlocks.BuildingBlock>(UnityEngine.FindObjectsSortMode.None);
-                bool isInstalled = System.Linq.Enumerable.Any(blocksInScene, b => b.BlockId == blockData.Id);
+                var blocksInScene = FindObjectsByType<BuildingBlock>(FindObjectsSortMode.None);
+                bool isInstalled = Enumerable.Any(blocksInScene, b => b.BlockId == blockData.Id);
                 EditorGUILayout.LabelField(
                     isInstalled ? "Installed in Scene" : "Not Installed",
                     isInstalled ? EditorStyles.helpBox : EditorStyles.miniLabel);
@@ -144,7 +144,7 @@ namespace BuildingBlocks.Editor
 
         private void UpdateBlockName(CustomBlockData blockData, string newBlockName)
         {
-            if (blockData == null || string.IsNullOrEmpty(newBlockName))
+            if (!blockData || string.IsNullOrEmpty(newBlockName))
                 return;
 
             string assetPath = AssetDatabase.GetAssetPath(blockData);
@@ -173,7 +173,7 @@ namespace BuildingBlocks.Editor
                 }
             }
 
-            if (blockData.Prefab != null)
+            if (blockData.Prefab)
             {
                 string prefabPath = AssetDatabase.GetAssetPath(blockData.Prefab);
                 if (!string.IsNullOrEmpty(prefabPath))
@@ -222,7 +222,7 @@ namespace BuildingBlocks.Editor
         
         private void ValidateAndCleanTags(CustomBlockData blockData)
         {
-            if (blockData == null || blockData.Tags == null || tagsProperty == null)
+            if (!blockData || blockData.Tags == null || tagsProperty == null)
                 return;
 
             serializedObject.Update();

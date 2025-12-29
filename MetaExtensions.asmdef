@@ -1,15 +1,15 @@
 {
-    "name": "BuildingBlocks.Editor",
+    "name": "MetaExtensions",
     "rootNamespace": "",
     "references": [
-        "Meta.XR.BuildingBlocks.Editor",
+        "Oculus.VR",
+        "Oculus.Interaction",
+        "Oculus.Interaction.OVR",
         "Meta.XR.BuildingBlocks",
-        "Meta.XR.Editor.Tags",
-        "Meta.XR.Editor.Id"
+        "Meta.XR.BuildingBlocks.Editor",
+        "Meta.XR.Editor.Tags"
     ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
@@ -19,4 +19,3 @@
     "versionDefines": [],
     "noEngineReferences": false
 }
-
