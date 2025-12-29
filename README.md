@@ -1,3 +1,5 @@
+<img width="1404" height="1101" alt="image" src="https://github.com/user-attachments/assets/e1379eb2-de8f-481c-9c31-552e724c54af" />
+
 # Meta XR Extensions
 
 This package provides extensions for Meta XR SDK, including the ability to create custom Building Blocks that appear in the Meta XR SDK Building Blocks panel.
