@@ -7,12 +7,5 @@
   "author": {
     "name": "Timur Prokopiev",
     "email": "timur.proko@gmail.com"
-  },
-  "samples": [
-    {
-      "displayName": "UIToolkit",
-      "description": "Basic example for UIToolkit demo",
-      "path": "Samples~/Scenes"
-    }
-  ]
+  }
 }
