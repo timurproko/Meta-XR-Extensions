@@ -1,5 +1,5 @@
 {
-    "name": "MetaExtensions.Editor",
+    "name": "BuildingBlocks.Editor",
     "rootNamespace": "",
     "references": [
         "Oculus.VR",

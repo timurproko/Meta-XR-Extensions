@@ -1,5 +1,5 @@
 {
-    "name": "MetaExtensions",
+    "name": "UIToolkitBlock",
     "rootNamespace": "",
     "references": [
         "Oculus.VR",
