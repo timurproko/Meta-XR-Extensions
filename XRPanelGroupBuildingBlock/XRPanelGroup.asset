@@ -12,14 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e16a994a9a3bc794690a9064f8efd197, type: 3}
   m_Name: XRPanelGroup
   m_EditorClassIdentifier: BuildingBlocks.Editor::BuildingBlocks.Editor.CustomBlockData
-  id: d4d723b9-ba62-4941-b272-96c9eb8ef1c0
+  id: 3d2493f2-85df-4399-9ab0-13a54091aa7e
   version: 1
   blockName: XR Panel Group
-  description: 
+  description: "Enables XR Panel Groups\u2014a setup for bundling multiple world-space
+    interaction panels into a single, coherent XR UI surface. It provides a foundation
+    for seamless multi-panel behavior, including shared interaction rules, consistent
+    layering, and unified manipulation (e.g., XR Panel Movement: grab/move/align
+    panels as one group while preserving each panel\u2019s local layout)."
   tags:
-    array:
-    - name: Interaction
-    - name: Experimental
+    array: []
   thumbnail: {fileID: 2800000, guid: 2d88bccc0fb0d37438fb40b3bd0615c3, type: 3}
   remoteThumbnailContentId: 0
   prefab: {fileID: 6009667813068242989, guid: bec0da7a410e2b1449376e6125064aee, type: 3}
@@ -29,6 +31,14 @@ MonoBehaviour:
   guidedSetupName: 
   packageDependencies: []
   isSingleton: 0
-  usageInstructions: 
+  usageInstructions: "Note: This block provides a baseline XR Panel Group configuration
+    for Meta XR / OpenXR projects. Use it to keep multiple panels behaving like one
+    \u201CUI cluster\u201D (common transforms, bounds, and interaction settings)
+    instead of managing each panel independently. For best results, define a clear
+    group root, ensure all child panels use consistent scale, sorting/layering, and
+    collider/bounds rules, and tune movement to feel stable in 3D space (snapping,
+    smoothing, constraints). Consider performance when grouping many panels\u2014prefer
+    fewer, larger panels when possible, and keep redraw-heavy UI elements minimal
+    during movement."
   featureDocumentationName: 
   featureDocumentationUrl: 
