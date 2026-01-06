@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e16a994a9a3bc794690a9064f8efd197, type: 3}
-  m_Name: UIToolkitBuildingBlock
+  m_Name: UIToolkitPanel
   m_EditorClassIdentifier: BuildingBlocks.Editor::BuildingBlocks.Editor.CustomBlockData
   id: d4d723b9-ba62-4941-b272-96c9eb8ef1c0
   version: 1

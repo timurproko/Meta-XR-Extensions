@@ -1,0 +1,19 @@
+{
+    "name": "UIToolkitPanel",
+    "rootNamespace": "",
+    "references": [
+        "Oculus.VR",
+        "Oculus.Interaction",
+        "Oculus.Interaction.OVR",
+        "Meta.XR.BuildingBlocks"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

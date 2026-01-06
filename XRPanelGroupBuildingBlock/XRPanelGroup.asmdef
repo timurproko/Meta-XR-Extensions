@@ -1,12 +1,6 @@
 {
-    "name": "UIToolkitBlock",
+    "name": "XRPanelGroup",
     "rootNamespace": "",
-    "references": [
-        "Oculus.VR",
-        "Oculus.Interaction",
-        "Oculus.Interaction.OVR",
-        "Meta.XR.BuildingBlocks"
-    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
