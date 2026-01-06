@@ -23,7 +23,7 @@ MonoBehaviour:
     - name: Experimental
   thumbnail: {fileID: 2800000, guid: 0160480bc5324f4438c69bc391dbd84a, type: 3}
   remoteThumbnailContentId: 0
-  prefab: {fileID: 3073562829216625832, guid: 78d2dd6c1cb72404791b8de5666ccaf9, type: 3}
+  prefab: {fileID: 6009667813068242989, guid: 58d7daa6555caeb4b99818abfbcb4631, type: 3}
   selectedGuidedSetupIndex: 0
   externalBlockDependencies: []
   dependencies: []

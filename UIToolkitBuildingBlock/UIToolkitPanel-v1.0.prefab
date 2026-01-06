@@ -240,12 +240,12 @@ GameObject:
   - component: {fileID: 750134917668445738}
   - component: {fileID: 5514423575850915863}
   m_Layer: 0
-  m_Name: UIToolkitPanel
+  m_Name: UIToolkitPanel-v1.0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5269418420850915955
 Transform:
   m_ObjectHideFlags: 0
